@@ -96,8 +96,7 @@
   width: 35vmax;
   border-radius: 20px 150px ;
   height: 65vh;
-  background-image: url(./asset/Img.png);
-}
+ }
 
 .blur2{
   position: absolute;

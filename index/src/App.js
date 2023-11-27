@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Style from './App.css'
-import Img from './asset/Img.png'
+import Img from './asset/Img.webp'
 import 'bootstrap/dist/css/bootstrap.min.css';
 function Index() {
   const [show,setShow]=useState(true)

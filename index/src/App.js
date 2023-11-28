@@ -60,16 +60,16 @@ function Index() {
           </div>
         </div>
         <div id='pg3' className='page3'>
-          <a href='#pg2'> <svg className='svg1' xmlns="http://www.w3.org/2000/svg" width="60" height="30" fill="currentColor" class="bi bi-arrow-90deg-left" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M1.146 4.854a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H12.5A2.5 2.5 0 0 1 15 6.5v8a.5.5 0 0 1-1 0v-8A1.5 1.5 0 0 0 12.5 5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4z" />
-          </svg></a>
+          <a style={{justifyContent:"center",textAlign:"center",alignItems:"center"}} href='#pg2'>    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" fill="black" class="bi bi-arrow-bar-left" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5M10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5" />
+            </svg>PREVIOUS</a> 
 
           <h1>PROJECTS</h1>
 
           <svg className='svg2' xmlns="http://www.w3.org/2000/svg" width="60" height="30" fill="currentColor" class="bi bi-chevron-double-down" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
             <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
-          </svg>
+          </svg> 
         </div>
       </div>
     </>

@@ -5,14 +5,12 @@
   box-sizing: border-box;
 }
 #main{
+  display: flexS;
   width: 100%;
-  height: 100%;
-  overflow-y: hidden;
-  scroll-behavior: smooth;
-  overflow-x: hidden;
+  height: 100%; 
 }
 .nav svg{
-  margin-left: -25%;
+  margin-left: -65%;
   
 }
 .nav{ 
@@ -35,6 +33,7 @@
   color: white;
 }
 .page1{
+  position: relative;
   background-image: linear-gradient(150deg,black,purple ,black);
   background-image: linear-gradient(5deg,purple);
   width: 100%;
@@ -57,11 +56,11 @@
   padding-top: -10%;
 }
 .page1 img{
-  width: 35vmax;
+  width: 30vmax;
   height: fit-content;
   position: absolute;
-  top: -200px;
-  left: -60px;
+  top: -15%;
+  left: -20px;
   border-radius: 0px 0px 100% 5%;
 }
 .page1 svg{
@@ -71,20 +70,18 @@
 }
 .page2{
   width: 100%;
-  height: 100vh;
-  position: absolute;
-  top: 0%;
-  left: 100%;
+  height: 100vh; 
   justify-content: space-between;
   background: #000; 
 }
 .page2 svg{
   text-decoration: none;
   margin-left: 90%;
-  margin-top: -7.2%;
+  margin-top: 20%;
   color: white; 
 }
 .page2 h1{
+  padding-top: 20%;
   text-align: center;
   color: white;
   font-family: 'Orbitron';
@@ -128,11 +125,9 @@
 
 }
 .page3{
+  text-align: center;
   width: 100%;
-  height: 100vh;
-  position: absolute;
-  top: 0%;
-  left: 200%;
+  height: 100vh; 
   display: flex;
   justify-content: space-between;
   background: white; 
@@ -144,4 +139,16 @@
 
 }
 .page3 h1{font-family: "orbitron";
-margin-top: 1%;}
+margin-top: 1%;
+}
+.page3 a{
+text-decoration: none;
+color: #000;
+font-size: 2vmin;
+ 
+width: fit-content;
+height: fit-content;
+justify-content: center;
+text-align: center;
+font-family: 'Orbitron';
+} 

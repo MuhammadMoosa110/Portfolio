@@ -12,14 +12,14 @@
   overflow-x: hidden;
 }
 .nav svg{
-  margin-right: 52px;
+  margin-left: -25%;
   
 }
 .nav{ 
   
   position: relative;
   top: 55px;
-  justify-content: space-between;
+  justify-content: end;
   display: flex;
    
 } 

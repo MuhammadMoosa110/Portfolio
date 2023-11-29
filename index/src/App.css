@@ -8,9 +8,13 @@
   box-sizing: border-box;
 }
 #main{
-  display: flexS;
+  display: flex;
   width: 100%;
-  height: 100%; 
+  height: 100%;
+  margin-right: auto;
+  margin-left: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem; 
 }
 .nav svg{
   margin-left: -65%;
@@ -44,7 +48,7 @@
 }
 .page1 h1{
   font-family: 'orbitron';
-  font-size: 9vmax;
+  font-size: 6vmax;
   font-weight: 900;
   color:white;
   margin-left: 30%;
@@ -58,21 +62,26 @@
   margin-left: 30%;
   padding-top: -10%;
 }
+.resume h5{
+  font-size: 2vmax;
+  margin-top: 50%;
+}
 .page1 img{
   width: 30vmax;
   height: fit-content;
   position: absolute;
-  top: -15%;
-  left: -20px;
+  top: 10%;
+  left: 60px;
   border-radius: 0px 0px 100% 5%;
 }
 .page1 svg{
   position: relative;
   left: 45%;
-  top: 5%;
+  top: 95%;
 }
 .page2{
-  
+  position: absolute;
+  top: 1110%; 
   width: 100%;
   height: 100vh; 
   justify-content: center;
@@ -80,9 +89,8 @@
 }
 .page2 svg{
   text-decoration: none;
-  margin-left: 90%;
-  margin-top: 20%;
-  color: white; 
+  color: white;
+    
 }
 .page2 h1{
   opacity: 0;
@@ -94,6 +102,7 @@
   color: white;
   font-family: 'Orbitron';
   text-decoration: none;
+  margin-left: -3%;
 
 }
 .blur{
@@ -142,47 +151,16 @@
     opacity: 0;
     transform: translateX(0);
   }
-}
-.page3{
-  text-align: center;
-  width: 100%;
-  height: 100vh; 
-  display: flex;
-  justify-content: space-between;
-  background: white; 
-}
-.page3 svg{
-  text-decoration: none;
-  color: black;
-  margin-top: 20px; 
-
-}
-.page3 h1{
-  font-family: "orbitron";
- 
 } 
-.page3 a{
-text-decoration: none;
-color: #000;
-font-size: 2vmin;
- 
-width: fit-content;
-height: fit-content;
-justify-content: center;
-text-align: center;
-font-family: 'Orbitron';
-} 
-.page2 .about{
-  position: relative;
+.about{  
+  margin-top: -45%;
+  margin-left: 8%;
   height: 20vmax;
-  width: 60vmax;
+  width: 90vmin;
   display: flex;
   border-radius: 20px;
-  margin-top: -9%;
-  margin-left: 16rem;
-  filter: drop-shadow(1.05px 0px 0px .56px rgba(#dadada, #ff0000, #f1a3a3, #eb8e8e));
-  border: 2px solid white;
-  color: aqua;
+   filter: drop-shadow(1.05px 0px 0px .56px rgba(#dadada, #ff0000, #f1a3a3, #eb8e8e));
+   color: aqua;
   animation-name: about2;
   animation-duration: 300s;
   opacity: 0;
@@ -206,16 +184,93 @@ font-family: 'Orbitron';
 }
 .page2 .about h4{
   font-family: "Orbitron";
-  margin-top: 4%;
+   
   text-align: center;
 }
 .page2 .about p{
-  font-family: "Orbitron";
-  margin-top: 5%;
-  margin-left: 18%;
-  width: 100%;
-  justify-content: center;
-  font-size: 1.8vmin;
-  text-align: center;
    
+  font-family: "Orbitron";
+   
+  justify-content: center;
+  font-size: 1vmax;
+    
+} 
+.page3{
+  display: table-column;
+  z-index: -99;
+  width: 100%;
+  height: 100vh;
+  top: 100%;
+  background: white;
+  position: absolute;
+  align-items: center;
+  }
+.page3 svg{
+  position: relative; 
+  z-index: 1500;
+  background: rebeccapurple;
+
+}
+.page3 h1{
+  font-family: "orbitron";
+  color: black;
+} 
+.page3 a{
+text-decoration: none;
+color: #000;
+font-size: 2vmin;
+ 
+width: fit-content;
+height: fit-content;
+justify-content: center;
+text-align: center;
+font-family: 'Orbitron';
+} 
+.page3 .mainCard{
+  width: 50%;
+  position: relative;
+  height: 60%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25%;
+  margin-top: 10%;
+  border-radius: 25px;
+  /* background: #000; */
+  overflow-y: auto;
+} 
+.page3 .mainCard .card{
+  background: blueviolet;
+  width: 100%; 
+  position: absolute;
+  top: 10px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  
+  height: 50%;
+}
+
+.mainCard .card1 {
+  background: blueviolet;
+  width: 100%;
+  position: absolute;
+  top: 60%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  
+  height: 50%;
+}
+
+.mainCard .card2 {
+  background: blueviolet;
+  width: 100%;
+  position: absolute;
+  top: 120%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  
+  height: 50%;
+}
+
+@media screen {
+  
 }

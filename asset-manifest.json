@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.c4017eeb.css",
-    "main.js": "/Portfolio/static/js/main.d40c5315.js",
+    "main.css": "/Portfolio/static/css/main.0edf4443.css",
+    "main.js": "/Portfolio/static/js/main.33506991.js",
     "static/js/787.f0015d7f.chunk.js": "/Portfolio/static/js/787.f0015d7f.chunk.js",
     "static/media/Moosa Resume.pdf": "/Portfolio/static/media/Moosa Resume.cd4618fb433c48593fe1.pdf",
     "static/media/Img.webp": "/Portfolio/static/media/Img.8e7f47ecb4fabd4e862e.webp",
     "static/media/Orbitron-VariableFont_wght.woff2": "/Portfolio/static/media/Orbitron-VariableFont_wght.eaef5c9493775410b37e.woff2",
     "index.html": "/Portfolio/index.html",
-    "main.c4017eeb.css.map": "/Portfolio/static/css/main.c4017eeb.css.map",
-    "main.d40c5315.js.map": "/Portfolio/static/js/main.d40c5315.js.map",
+    "main.0edf4443.css.map": "/Portfolio/static/css/main.0edf4443.css.map",
+    "main.33506991.js.map": "/Portfolio/static/js/main.33506991.js.map",
     "787.f0015d7f.chunk.js.map": "/Portfolio/static/js/787.f0015d7f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4017eeb.css",
-    "static/js/main.d40c5315.js"
+    "static/css/main.0edf4443.css",
+    "static/js/main.33506991.js"
   ]
 }

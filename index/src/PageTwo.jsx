@@ -25,7 +25,8 @@ function PageTwo() {
             <div   id='about' className='about'>
              <h1 id='pg2'>ABOUT</h1>
              <div className='aboutIn'> 
-             <h2 style={{color:"white"}}>HI THERE</h2>  
+             <h2 style={{color:"white"}}>HI THERE</h2>
+             <p>I am a React Developer i have an 6 years experiance in react next java and i am also proeffient in backend as well</p>  
              </div>
           </div>
             <a href='#pg1' >     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" fill="White" class="bi bi-arrow-bar-left" viewBox="0 0 16 16">

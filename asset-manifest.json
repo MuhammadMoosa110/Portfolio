@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.e911ed9d.css",
-    "main.js": "/Portfolio/static/js/main.3b90e2c3.js",
+    "main.js": "/Portfolio/static/js/main.e0f5faae.js",
     "static/js/787.f0015d7f.chunk.js": "/Portfolio/static/js/787.f0015d7f.chunk.js",
     "static/media/Pic 1.PNG": "/Portfolio/static/media/Pic 1.c31d6439e6b28842fb63.PNG",
     "static/media/Moosa Resume.pdf": "/Portfolio/static/media/Moosa Resume.cd4618fb433c48593fe1.pdf",
@@ -9,11 +9,11 @@
     "static/media/Orbitron-VariableFont_wght.woff2": "/Portfolio/static/media/Orbitron-VariableFont_wght.eaef5c9493775410b37e.woff2",
     "index.html": "/Portfolio/index.html",
     "main.e911ed9d.css.map": "/Portfolio/static/css/main.e911ed9d.css.map",
-    "main.3b90e2c3.js.map": "/Portfolio/static/js/main.3b90e2c3.js.map",
+    "main.e0f5faae.js.map": "/Portfolio/static/js/main.e0f5faae.js.map",
     "787.f0015d7f.chunk.js.map": "/Portfolio/static/js/787.f0015d7f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e911ed9d.css",
-    "static/js/main.3b90e2c3.js"
+    "static/js/main.e0f5faae.js"
   ]
 }

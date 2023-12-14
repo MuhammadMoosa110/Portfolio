@@ -3,13 +3,14 @@ import Img from './asset/Pic 1.PNG'
 function PageThree() {
     return ( 
         <>
-        <h1  style={{marginTop:"2%",color:"#000"}}> PROJECTS</h1> 
+        
         <div id='pg3' className='page3'>
           <a style={{justifyContent:"center",textAlign:"center",alignItems:"center",marginBottom:"20%"}} href='#pg2'>     
-          PREVIOUS</a> 
+          PREVIOUS</a>
+          <h1>PROJECTS</h1> 
            
 
-            <div className='mainCard'>
+            <div className='mainCard' style={{marginTop:'10%'}}>
                  <div className='card1'>
                     
                     <a target='blank' href='https://www.figma.com/proto/c1N9POg2QYxrUWdUOlk8N2/Untitled?node-id=24-12&starting-point-node-id=24%3A12&scaling=scale-down'><h1> UI DESIGN TWO </h1></a>
